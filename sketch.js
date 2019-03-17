@@ -5,6 +5,7 @@ let img=[];let img2=[];
 
 
 function setup() {
+textSize(24);
 xpos=120;ypos=120;startup();
 can=createCanvas(500,400);
 can.position(100,150);
@@ -19,7 +20,7 @@ board();
 }
 
 function draw() {
-
+text("this project is not finished.",20,50);
 playGame();
 rad.changed(chGame);
 chWinner();
