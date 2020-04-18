@@ -48,7 +48,7 @@ function playGame(){
  if(box[7]==1&&box[4]==1&&box[1]==1){textSize(48);fill(0,250,0);text("winner",width/2-100,height/2-50);} 
  if(box[8]==1&&box[5]==1&&box[2]==1){textSize(48);fill(0,250,0);text("winner",width/2-100,height/2-50);} 
  if(box[9]==1&&box[6]==1&&box[3]==1){textSize(48);fill(0,250,0);text("winner",width/2-100,height/2-50);} 
-  
+  //coment
  if(box[7]==2&&box[8]==2&&box[9]==2){textSize(48);fill(0,250,0);text("winner",width/2-100,height/2-50);} 
  if(box[7]==2&&box[5]==2&&box[3]==2){textSize(48);fill(0,250,0);text("winner",width/2-100,height/2-50);} 
  if(box[9]==2&&box[5]==2&&box[1]==2){textSize(48);fill(0,250,0);text("winner",width/2-100,height/2-50);} 
