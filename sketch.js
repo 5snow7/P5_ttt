@@ -5,7 +5,7 @@ let img=[];let img2=[];
 
 
 function setup() {
-textSize(24);
+textSize(20);
 xpos=120;ypos=120;startup();
 can=createCanvas(500,400);
 can.position(100,150);
