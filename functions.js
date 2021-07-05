@@ -6,7 +6,8 @@ for(let j=0;j<11;j++){box[j]=0;}
 }
 //chg/test of pull request to testbranch;
 function board(){
- stroke(250,100,0);strokeWeight(6);
+//testing pull request to gh-pages
+ stroke(250,0,0);strokeWeight(6);
  line(50,height/3,width-50,height/3);
  line(50,height*2/3,width-50,height*2/3);
  line(width/3,50,width/3,height-50);
